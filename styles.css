@@ -55,12 +55,12 @@ nav .start-home, a:nth-child(1):hover~.animation {
 	left: 0;
 	background-color: #f9b234;
 }
-nav .start-about, a:nth-child(2):hover~.animation {
+nav .start-translations, a:nth-child(2):hover~.animation {
 	width: 200px;
 	left: 200px;
 	background-color: #3ecd5e;
 }
-nav .start-blog, a:nth-child(3):hover~.animation {
+nav .start-contacts, a:nth-child(3):hover~.animation {
 	width: 200px;
 	left: 400px;
 	background-color: #e44002;
@@ -285,7 +285,7 @@ nav a:hover {
 .ag-courses_item:nth-child(6n) .ag-courses-item_bg {
   background-color: #4c49ea;
 }
-/*----------------------------------------------------------*/
+/*------------------------------footer----------------------------------------------*/
 footer {
   background-color: #0c356a;
   color: white;
@@ -296,6 +296,25 @@ footer {
   overflow: hidden;
 }
 
+.contacts-img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-contact-item {
+  display: flex;
+  left: 38%;
+  position: relative;
+  margin-top: 10px;
+}
+
+.footer-contacts-p {
+  position: relative;
+  bottom: 20%;
+  margin-left: 10px;
+}
+
+/*------------------------------Translation page----------------------------------------------*/
 #translate-img {
     width: 1349px;
     height: 705px;
@@ -421,3 +440,24 @@ ul li.card .content{
 #case-2-text {
   padding-bottom: 100px;
 }
+
+/************************* contact page only *************************/
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.c-plat {
+  color: #333;
+}
+
