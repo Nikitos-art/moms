@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tanya's Language Services</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Merriweather+Sans&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
     <!-- Add your meta tags, stylesheets, and other head elements here -->
     <style>
         /* Add some basic styles for the navbar */
@@ -77,60 +84,87 @@
             overflow: hidden;
         }
     </style>
+ main
 </head>
-    <!-- Your content goes here -->
     <nav>
-        <a href="./index.html">Home</a>
-        <a href="./translations.html">Translation</a>
-        <a href="./contacts.html">Contact</a>
+        <div id="nav-items">
+            <a href="./index.html">Home</a>
+            <a href="./translations.html">Translations</a>
+            <a href="./contacts.html">Contacts</a>
+            <div class="animation start-home"></div>
+        </div>
     </nav>
-    <!-- Add your scripts, additional content, and other body elements here -->
+
     <div style="position: relative;">
         <img src="moms.png" id="index-img">
-        <h1 id="index-title">Elevate your language, <br>elevate your life</h1>
+        <h1 id="index-title">Elevate your language, <br>elevate your life.</h1>
     </div>
 
-    <div style="display: flex; background-color: #FFF0CE;">
-        <div>
-            <p class="index-intro">
-                As your dedicated English tutor, I bring a passion for teaching, a wealth
-                of resources, and a commitment to your success.
-            </p>
+    <!-- <div style="display: flex; background-color: #FFF0CE;" class="ag-courses_box"> -->
+    <div class="ag-courses_box">
+        <div class="ag-courses_item">
+            <div class="ag-courses_item">
+                <div class="ag-courses-item_link">
+                    <div class="ag-courses-item_bg"></div>
+            
+                    <div class="ag-courses-item_title">
+                        Hourly Packages.
+                    </div>
+            
+                </div>
+            </div>
         </div>
-        <div>
-            <p class="index-intro">
-                Choosing me as your English tutor guarantees a personalized learning experience,<br> tailored to your individual needs and goals.
-            </p>
+        <div class="ag-courses_item">
+            <div class="ag-courses_item">
+                <div class="ag-courses-item_link">
+                    <div class="ag-courses-item_bg"></div>
+            
+                    <div class="ag-courses-item_title">
+                        Skill-Based Tutoring.
+                    </div>
+            
+                </div>
+            </div>
+        </div>
+        <div class="ag-courses_item">
+            <div class="ag-courses_item">
+                <div class="ag-courses-item_link">
+                    <div class="ag-courses-item_bg"></div>
+            
+                    <div class="ag-courses-item_title">
+                        Customized Plans.
+                    </div>
+            
+                </div>
+            </div>
         </div>
     </div>
     
     <div style="position: relative; margin: 30px 0 30px 0;">
         <div id="tut-desc">
-            <h3 style="font-size: 1.5em;">On-line English tutoring service.</h3>
-            <p style="width: 300px; font-size: 1.2em; margin-left: 10px">With years of teaching experience and tutoring kids as well as grown-ups, I have witnessed the transformative power of education in shaping minds and fostering personal growth.</p>
+            <h3 class="tut heading" style="position: relative; bottom: 70px; right: 190px;">On-line English tutoring service.</h3>
+            <p id="tut-p">With years of teaching experience and tutoring kids as well as grown-ups, I have witnessed the transformative power of education in shaping minds and fostering personal growth.</p>
         </div>
         <div>
             <img src="tut.png" id="tut-img">
         </div>
     </div>
 
-    <div style="background-color: #FFF0CE; height: 600px;">
+    <div style="background-color: #FFF0CE;">
         <div style="display: flex; position: relative;">
-            <h5 style="font-size: 1.2em; position: relative; top: 100px; left: 150px;">
+            <h3 class="philo heading" style="position: relative; top: 50px; left: 80px;">
                 Briefly about my tutoring philosophy.
-            </h5>
-            <p style="font-size: 2em; 
-                max-width: 600px; 
-                position: absolute; 
-                left: 45%;
-                top: 90%;
-                ">
+            </h3>
+            <p id="philo-p">
                 I make online learning fun and easy. I customize lessons to fit your way of learning, so it's not boring or hard to understand. I'm here to help you succeed in a virtual classroom that feels friendly and supportive. Let's enjoy the learning journey together and discover all the cool things you can do online!
             </p>
         </div>
+        <div>
+            <img src="philo.png" id="philo-img">
+        </div>
     </div>
 <footer>
-    &copy; 2024 Tanyas Language Services. All rights reserved.
+    &copy; 2024 Tanya's Language Services. All rights reserved.
 </footer>
 </body>
 </html>
