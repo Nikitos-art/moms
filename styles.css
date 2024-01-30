@@ -7,7 +7,7 @@ body {
 nav {
 	/* margin: 27px auto 0; */
 	position: relative;
-	width: 1348px;
+	width: 100%;
 	height: 50px;
 	background-color: #34495e;
 	border-radius: 1px;
@@ -102,8 +102,8 @@ nav a:hover {
 } */
 /*----------------------------------------------------*/
 #index-img {
-  width: 1348px;
-  height: 705px;
+  width: 100%;
+  height: auto;
   filter: brightness(70%) saturate(70%);
 }
 
@@ -141,7 +141,6 @@ nav a:hover {
 
 .tran-heading {
   position: relative;
-  margin-left: 290px;
 }
 
 .heading::after {
@@ -316,8 +315,8 @@ footer {
 
 /*------------------------------Translation page----------------------------------------------*/
 #translate-img {
-    width: 1349px;
-    height: 705px;
+    width: 100%;
+    height: auto;
     filter: brightness(70%) saturate(70%);
 }
 
@@ -414,14 +413,19 @@ ul li.card .content{
   padding-bottom: 30px;
 }
 
+.translations-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .case-study-heading {
   position: relative;
-  margin-left: 500px;
 }
 
 .case-study-text {
   width: 900px;
-  margin-left: 250px;
   font-family: Roboto;
   font-size: 2em;
 }
