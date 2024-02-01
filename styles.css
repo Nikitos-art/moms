@@ -247,26 +247,6 @@ nav .start-contacts, a:nth-child(3):hover~.animation {
   background-color: #FFF0CE;
 }
 
-@media (orientation: portrait) {
-
-  #index-img {
-    width: 100%;
-  }
-
-  .ag-courses-item_title {
-    font-size: 1em;
-  }
-
-  .section-2 {
-    width: 100%;
-  }
-
-  #tut-p, #philo-p {
-    width: 100%;
-  }
-
-}
-
 /*------------------------------footer----------------------------------------------*/
 footer {
   background-color: #0c356a;
@@ -448,70 +428,6 @@ main {
   color: #333;
 }
 
-/****************** MOBILE DEVICE ***************************/
-@media only screen and (max-width: 600px) {
-  /*************** NAVBAR ****************/
-  nav a {
-    font-size: 12px;
-  }
-
-  #nav-items {
-    left: 20%;
-  }
-  
-  a:nth-child(n) {
-    width: 100px;
-  }
-
-  nav .start-home, a:nth-child(1):hover~.animation {
-    width: 100px;
-    left: 0;
-    background-color: #f9b234;
-  }
-  nav .start-translations, a:nth-child(2):hover~.animation {
-    width: 100px;
-    left: 100px;
-    background-color: #3ecd5e;
-  }
-  nav .start-contacts, a:nth-child(3):hover~.animation {
-    width: 100px;
-    left: 200px;
-    background-color: #e44002;
-  }
-  /******************* TOP SECTION ********************/
-  .main-title {
-    font-size: 1.8em;
-  }
-  /******************* BLACK AND COLOR CARDS ********************/
-  .ag-courses-item_title {
-    font-size: 17px;
-  }
-  .ag-courses-item_link {
-    height: 60px;
-  }
-  /******************* BLACK AND COLOR CARDS ********************/
-  .heading {
-    font-size: 17px;
-  }
-  .p {
-    font-size: 0.8em;
-    left: 20%;
-  }
-  .desc-img {
-    width: 10em;
-    left: 50%;
-  }
-  .desc-one {
-    left: 24%;
-  }
-  /******************** FOOTER ********************/
-  footer {
-    width: 96%;
-  }
-  .footer-contact-item {
-    left: 28%;
-}
-
 /************************** TABLET DEVICE **************************/
 @media only screen and (min-width: 601px) and (max-width: 750px) {
   /********************** NAVBAR *******************************/
@@ -551,9 +467,9 @@ main {
     font-size: 22px;
   }
   .ag-courses-item_link {
-    height: 80px;
+    height: 70px;
   }
-  /******************* BLACK AND COLOR CARDS ********************/
+  /******************* THE REST ********************/
   .heading {
     font-size: 22px;
   }
@@ -563,13 +479,89 @@ main {
   }
   .desc-img {
     width: 12em;
-    left: 70%;
+    left: 30%;
   }
-  .desc-one {
-    left: 50%;
+  .desc-two {
+    left: 45%;
+  }
+  .block {
+    position: relative;
+    left: -8%
   }
   /**************  FOOTER ***************************/
   footer {
     width: 97.5%;
+  }
+  .footer-contact-item {
+    left: 28%;
+  }
+}
+
+/****************** MOBILE DEVICE ***************************/
+@media only screen and (max-width: 600px) {
+  /*************** NAVBAR ****************/
+  nav a {
+    font-size: 12px;
+  }
+
+  #nav-items {
+    left: 20%;
+  }
+  
+  a:nth-child(n) {
+    width: 100px;
+  }
+
+  nav .start-home, a:nth-child(1):hover~.animation {
+    width: 100px;
+    left: 0;
+    background-color: #f9b234;
+  }
+  nav .start-translations, a:nth-child(2):hover~.animation {
+    width: 100px;
+    left: 100px;
+    background-color: #3ecd5e;
+  }
+  nav .start-contacts, a:nth-child(3):hover~.animation {
+    width: 100px;
+    left: 200px;
+    background-color: #e44002;
+  }
+  /******************* TOP SECTION ********************/
+  .main-title {
+    font-size: 1.8em;
+  }
+  /******************* BLACK AND COLOR CARDS ********************/
+  .ag-courses-item_title {
+    font-size: 15px;
+  }
+  .ag-courses-item_link {
+    height: 60px;
+  }
+  /******************* THE REST ********************/
+  .heading {
+    font-size: 17px;
+  }
+  .p {
+    font-size: 0.8em;
+    left: 20%;
+  }
+  .desc-img {
+    width: 10em;
+    left: 50%;
+  }
+  .desc-one {
+    left: 24%;
+  }
+  .block {
+    position: relative;
+    left: -8%
+  }
+  /******************** FOOTER ********************/
+  footer {
+    width: 96%;
+  }
+  .footer-contact-item {
+    left: 28%;
   }
 }
