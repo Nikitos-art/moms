@@ -505,7 +505,7 @@ main {
   }
 
   #nav-items {
-    left: 20%;
+    left: 15%;
   }
   
   a:nth-child(n) {
@@ -533,25 +533,22 @@ main {
   }
   /******************* BLACK AND COLOR CARDS ********************/
   .ag-courses-item_title {
-    font-size: 15px;
+    font-size: 11px;
   }
   .ag-courses-item_link {
-    height: 60px;
+    height: 30px;
   }
   /******************* THE REST ********************/
   .heading {
     font-size: 17px;
   }
   .p {
-    font-size: 0.8em;
+    font-size: 0.6em;
     left: 20%;
   }
   .desc-img {
-    width: 10em;
-    left: 50%;
-  }
-  .desc-one {
-    left: 24%;
+    width: 9em;
+    left: 0%;
   }
   .block {
     position: relative;
@@ -559,9 +556,23 @@ main {
   }
   /******************** FOOTER ********************/
   footer {
-    width: 96%;
+    width: 95%;
+    font-size: 0.7em;
   }
   .footer-contact-item {
-    left: 28%;
+    left: 25%;
   }
+  /* .footer-contacts-p {
+    font-size: 0.7em;
+  } */
+  .contacts-img {
+    width: 15px;
+    height: 15px;
+  }
+  /* .footer-contact-item {
+    display: flex;
+    left: 38%;
+    position: relative;
+    margin-top: 10px;
+  } */
 }
