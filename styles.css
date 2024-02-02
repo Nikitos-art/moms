@@ -540,7 +540,7 @@ main {
   }
   /******************* THE REST ********************/
   .heading {
-    font-size: 17px;
+    font-size: 14px;
   }
   .p {
     font-size: 0.6em;
@@ -550,6 +550,11 @@ main {
     width: 9em;
     left: 0%;
   }
+
+  .desc-two {
+    margin-left: 15px;
+  }
+
   .block {
     position: relative;
     left: -8%
@@ -559,20 +564,14 @@ main {
     width: 95%;
     font-size: 0.7em;
   }
+
   .footer-contact-item {
     left: 25%;
   }
-  /* .footer-contacts-p {
-    font-size: 0.7em;
-  } */
+
   .contacts-img {
     width: 15px;
     height: 15px;
   }
-  /* .footer-contact-item {
-    display: flex;
-    left: 38%;
-    position: relative;
-    margin-top: 10px;
-  } */
+
 }
