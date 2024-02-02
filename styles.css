@@ -345,10 +345,22 @@ ul li.card .content{
 }
 
 @media (orientation: portrait){
+
+  ul {
+    perspective: 500px;
+  }
+
   ul li.card {
     grid-template: 'icon title' 'icon content';
     text-align: left;
+    width: 250px;
+    font-size: 0.8rem;
   }
+
+  ul li.card .title{
+    font-size: 1.0rem;
+  }
+
   ul li.card .title { text-align: left }
 }
 
@@ -533,7 +545,7 @@ main {
   }
   /******************* BLACK AND COLOR CARDS ********************/
   .ag-courses-item_title {
-    font-size: 11px;
+    font-size: 9px;
   }
   .ag-courses-item_link {
     height: 30px;
@@ -548,7 +560,7 @@ main {
   }
   .desc-img {
     width: 9em;
-    left: 0%;
+    left: 9%;
   }
 
   .desc-two {
@@ -558,6 +570,32 @@ main {
   .block {
     position: relative;
     left: -8%
+  }
+  /*                   TRANSLATIONS                */
+  .transl {
+    font-size: 1.2em;
+    position: absolute;
+    color: white;
+    top: 15%;
+    left: 30%;
+  }
+  .tran-heading {
+    width: 300px;
+    font-size: 19px;
+  }
+  .case-study-text {
+    width: 300px;
+    font-size: 1em;
+  }
+
+  #skill-tower-heading {
+    font-size: 15px;
+    margin-left: 50px;
+  }
+  /*                    CONTACTS PAGE              */
+  .contact {
+    font-size: 0.7rem;
+    
   }
   /******************** FOOTER ********************/
   footer {
